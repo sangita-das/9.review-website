@@ -1,0 +1,23 @@
+.banner {
+  background-image: url("https://img.freepik.com/free-vector/futuristic-education-concept-with-glowing-low-polygonal-open-book-graduation-cap-isolated-dark-blue-background-modern-wire-frame-mesh_67515-1040.jpg?size=626&ext=jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  height: 780px;
+  width: 100%;
+  /* border: 1px solid red; */
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.title {
+  color: white;
+  font-weight: bold;
+  font-size: 59px;
+}
+.about-btn {
+  background-color: #2b4088dc;
+  outline: none;
+  border: none;
+  padding: 17px 34px;
+  color: white;
+}
