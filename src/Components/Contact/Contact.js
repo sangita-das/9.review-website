@@ -8,15 +8,15 @@ const Contact = () => {
   return (
     <div className="container pt-3 mt-5">
 
-      <h1 className="text-center fw-bold text-light">We'd Love To Hear From You!</h1>
-      <p className="text-light">Our team is here for you. If you want to get in touch about anything at all them send us an email <span className="fw-bold ">learning@gmailcom </span>or give us call during official hours. You can find information about the most common question and issue on our <span className="fw-bold ">Learning Support Hub</span>.</p>
+      <h1 className="text-center fw-bold text-primary">We'd Love To Hear From You!</h1>
+      <p className="text-dark">Our team is here for you. If you want to get in touch about anything at all them send us an email <i className="fw-bold ">learning@gmailcom </i>or give us call during official hours. You can find information about the most common question and issue on our <i className="fw-bold ">Learning Support Hub</i>.</p>
 
 
-      <h1 className="text-light text-center fw-bold ">Contact Us</h1>
+      <h1 className="text-dark text-center fw-bold mt-5  ">Contact Us</h1>
 
       <div className="contact-area ">
         <div className="container ">
-          <div className="row p-5 my-4 d-flex justify-content-between align-items-center text-light">
+          <div className="row p-5 my-4 d-flex justify-content-between align-items-center text-dark">
 
 
             <Form>

@@ -6,17 +6,18 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="Header-container bg-secondary">
+    <div className="Header-container bg-dark">
       <div className="container">
         <div className="row">
           <div className="col-md-2">
             <div className="logo-img">
               <img className="w-25" src={logo} alt="" />
+              <span className="text-light">Learning Point</span>
             </div>
           </div>
           <div className="col-md-10">
             <div className="menu-container ">
-              <ul className="d-flex align-items-end justify-content-end">
+              <ul className="d-flex align-items-end justify-content-end fw-bold">
                 <Link to="/home" className="items">
                   <li>Home</li>
                 </Link>

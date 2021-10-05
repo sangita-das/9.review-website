@@ -12,7 +12,7 @@ import Contact from './Components/Contact/Contact';
 
 function App() {
   return (
-    <div className="bg-dark">
+    <div className="">
       <Router>
         <Header></Header>
 

@@ -38,7 +38,7 @@ const Footer = () => {
                 </div>
                 <p className="mt-4 ">
                   <small>
-                    *Aim for universal appeal to any audience.Education is your area of expertise, and your website should support your overall goals. Just be smart.
+                    *Aim for universal appeal to provide worldclass education for you.Education is your area of expertise, and our website should support your overall goals. Just be smart.
                   </small>
                 </p>
 

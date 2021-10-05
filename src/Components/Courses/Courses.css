@@ -1,12 +1,7 @@
-.courses {
-  padding: 50px;
+.card{
+  height: 500px;
+  width: 400;
 }
-
-.cart {
-  padding: 10px;
-  height: 550px;
-  
-  margin-top: 10px;
-  
+.card-title{
+  color: #165292 !important;
 }
-

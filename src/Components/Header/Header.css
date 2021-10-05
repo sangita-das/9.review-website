@@ -3,12 +3,12 @@
   margin-right: 30px;
   font-size: 22px;
   font-weight: 500;
-  color: rgb(10, 43, 82);
+  color:white;
   cursor: pointer;
   padding: 5px;
   text-decoration: none;
   
 }
 .items:hover {
-  color: rgb(221, 5, 5);
+  color: rgb(221, 153, 5);
 }

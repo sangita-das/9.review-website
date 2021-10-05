@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Row } from 'react-bootstrap';
 import SingleCourse from '../SingleCourse/SingleCourse';
-import '../Courses/Courses.css'
+import '../Courses/Courses.css';
+
 
 const Courses = () => {
   const [courses, setCourses] = useState([]);
@@ -14,14 +15,19 @@ const Courses = () => {
     <div className="container min-vh-100 g-4">
       <div className="shadow my-4 rounded p-4">
         <div className="courses">
-          <h1 className="text-center text-light">Browse all courses</h1>
-          <p className="text-center pb-4 text-light">Break into a new field like information technology or data science.No prior experience necessary to get started.</p>
+
+
+          <h1 className="text-center text-primary">Browse all courses</h1>
+          <p className="text-center pb-4 text-dark fw-bold">Break into a new field like information technology or data science.No prior experience necessary to get started.</p>
         </div>
-        <Row className="gy-5">
-          {
-            courses.map(course => <SingleCourse key={course.id} course={course}></SingleCourse>)
-          }
-        </Row>
+        <div>
+          <Row className="gy-5">
+            {
+              courses.map(course => <SingleCourse key={course.key} course={course}></SingleCourse>)
+            }
+          </Row>
+        </div>
+
       </div>
     </div>
   );
